@@ -38,8 +38,8 @@ Open http://localhost:3000
 - The API route `pages/api/summarize.js` decodes the uploaded PDF (base64), extracts text with `pdf-parse`, builds a prompt, sends it to the configured AI provider, and parses the response. Update the provider integration there if you prefer Claude or another API.
 - This scaffold does not persist uploaded PDFs or summaries.
 
-## Vercel deployment
-Push the repository to GitHub, connect the project to Vercel, and add `OPENAI_API_KEY` in the Vercel dashboard environment variables. Vercel will run `npm run build` automatically.
+## Deployment
+Push the repository to GitHub, connect the project to netlify, Vercel or any other web hosting service, and add `GOOGLE_API_KEY`, `OPENAI_API_KEY` in the Vercel dashboard environment variables. Vercel will run `npm run build` automatically.
 
 ## TODOs / Next steps
 - Improve AI response parsing and edge-case handling
