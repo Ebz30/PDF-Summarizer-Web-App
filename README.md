@@ -39,7 +39,7 @@ Open http://localhost:3000
 - This scaffold does not persist uploaded PDFs or summaries.
 
 ## Deployment
-Push the repository to GitHub, connect the project to netlify, Vercel or any other web hosting service, and add `GOOGLE_API_KEY`, `OPENAI_API_KEY` in the Vercel dashboard environment variables. Vercel will run `npm run build` automatically.
+Push the repository to GitHub, connect the project to netlify, Vercel or any other web hosting service, and add `GOOGLE_API_KEY`, `OPENAI_API_KEY` your dashboard environment variables. Vercel will run `npm run build` automatically.
 
 ## TODOs / Next steps
 - Improve AI response parsing and edge-case handling
